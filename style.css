@@ -36,28 +36,123 @@
     font-size: 20px;
 }
 
+/* My plan */
+.my-plan {
+    margin-top: 130px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 86px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.skill-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
 .second-part {
-    text-combine-upright: 48px;
+    display: flex;
+}
+
+.image {
+    padding: 370px 322px 1074.26px 862px;
 }
 
 h3 {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-}
-
-image {
-    margin-left: 206px;
+    margin-bottom: 24px;
 }
 
 .second-part-des-1 {
     color: #444343;
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 16px;
 }
 
 .second-part-des-2 {
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+}
+
+/* footer part */
+
+.subscribe {
+    display: flex;
+    background: #151414;
+    padding: 130px 200px;
+}
+
+.subscribe-title {
+    color: #F8F8F8;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.subscribe-title-1 {
+    color: #F8F8F8;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.subscribe-title-des {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.subscribe-title-des-1 {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.subscribe-title-des-2 {
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.btn-subscribe {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 64px;
+    border: 0;
+    padding: 20px 36.02px;
+    margin-top: 16px;
+}
+
+input {
+    width: 100%;
+    height: 64px;
+    padding: 21px 21px 22px 21px;
+    border-radius: 5px;
+    background-color: black;
+    color: #F8F8F8;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
 }
