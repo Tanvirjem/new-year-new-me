@@ -36,6 +36,11 @@
     font-size: 20px;
 }
 
+.previous-year {
+    justify-content: space-between;
+    text-align: left;
+}
+
 /* My plan */
 .my-plan {
     margin-top: 130px;
@@ -92,6 +97,21 @@ h3 {
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+}
+
+/* watch section */
+
+.my-watch {
+    text-align: center;
+}
+
+.watch-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.watch {
+    position: relative;
 }
 
 /* footer part */
