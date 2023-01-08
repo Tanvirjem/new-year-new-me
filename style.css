@@ -36,9 +36,22 @@
     font-size: 20px;
 }
 
+/* failure part */
+
+.failures-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
 .previous-year {
+    display: flex;
     justify-content: space-between;
-    text-align: left;
+
+}
+
+.previous-year-description {
+    padding: 5px;
 }
 
 /* My plan */
@@ -111,7 +124,8 @@ h3 {
 }
 
 .watch {
-    position: relative;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
 }
 
 /* footer part */
